@@ -1,0 +1,7 @@
+t=int(input())
+n=int(input())
+s=0
+for i in range(t):
+    y=(8/100)*n
+    s+=y+n
+print(s)
